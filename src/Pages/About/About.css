@@ -1,0 +1,12 @@
+.about-list > span {
+  font-weight: 900;
+  font-size: large;
+}
+
+.aboutlist > li {
+  margin-top: 10px;
+}
+
+.aboutlist {
+  list-style-type: none;
+}

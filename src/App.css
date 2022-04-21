@@ -1,38 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  width: 100%;
+  margin: 0px;
+  font-family: "Raleway", sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.hoverme:hover{
+  background-color:  #2b90d9;
+}
+.animateme{
+  animation-name: slidingbar;
+  animation-iteration-count: 1;
+  animation-duration: 0.75s;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@keyframes slidingbar {
+  from{width:180px;opacity: 0;}
+  to{width:222px;opacity: 1};
+
 }
 
-.App-link {
-  color: #61dafb;
+.heading-back {
+  background-image: linear-gradient(-39deg, #ff6b6b, #2b90d9) !important;
+  color: rgba(255, 255, 255, 0.9);
+  background-color: white;
+  font-size: 80px;
+  margin: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.heading::after {
+  content: "";
+  width: 250px;
+  background: -webkit-linear-gradient(left, #ff6b6b 30%, transparent 70%);
+  display: block;
+  height: 6px;
+  margin-top: 10px;
+}
+
+.fontfam {
+  font-family: "Raleway", sans-serif;
+}
+
+.social {
+  height: 30px;
+  box-sizing: border-box;
+  background-color: "#282c34";
+  cursor: pointer;
+  width: 30px;
+}
+.social:hover {
+  background-color: rgb(92, 144, 212);
+  transition: ease 1s;
 }
