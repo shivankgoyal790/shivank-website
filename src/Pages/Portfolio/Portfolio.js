@@ -6,7 +6,7 @@ import image6 from "../../images/images_features12-a_0-1544804161468.jpg";
 import image3 from "../../images/img1.png";
 import image4 from "../../images/michael-soledad-NrR6ByFMBas-unsplash.jpg";
 import image5 from "../../images/Screenshot (754).png";
-import Heading from "../../Shared/Heading";
+import Heading from "../../shared/Heading";
 
 const Projects = [
   {

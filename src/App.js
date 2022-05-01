@@ -1,11 +1,11 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Mainnav from "./Shared/Mainnav";
-import Home from "./Pages/Home/Home";
-import Portfolio from "./Pages/Portfolio/Portfolio";
-import About from "./Pages/About/About";
-import Resume from "./Pages/Resume/Resume";
-import Contact from "./Pages/Contact/Contact";
+import Mainnav from "./shared/Mainnav";
+import Home from "./pages/home/Home";
+import Portfolio from "./pages/portfolio/Portfolio";
+import About from "./pages/about/About.js";
+import Resume from "./pages/resume/Resume";
+import Contact from "./pages/contact/Contact";
 
 const App = () => {
   return (

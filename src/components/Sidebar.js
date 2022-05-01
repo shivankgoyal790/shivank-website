@@ -1,6 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Mainnav from "../Shared/Mainnav";
+import Mainnav from "../shared/Mainnav";
 const Sidebar = (props) => {
   return (
     <div

@@ -1,5 +1,5 @@
 import React from "react";
-import Heading from "../../Shared/Heading";
+import Heading from "../../shared/Heading";
 import "./Resume.css";
 
 const Resume = () => {

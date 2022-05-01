@@ -1,7 +1,7 @@
 import { faCaretRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
-import Heading from "../../Shared/Heading";
+import Heading from "../../shared/Heading";
 import "./About.css";
 const About = () => {
   return (
